@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigida.Timelooker.Models", "src\Sigida.Timelooker.Models\Sigida.Timelooker.Models.csproj", "{545D504A-D632-43FC-8FE1-EC5DD7CBA211}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B9687D9B-8483-418C-9E0C-65EEB62D9B56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigida.Timelooker.Console", "src\Sigida.Timelooker.Console\Sigida.Timelooker.Console.csproj", "{782A155A-16CC-463F-B6B5-CB79F3574AF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{545D504A-D632-43FC-8FE1-EC5DD7CBA211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545D504A-D632-43FC-8FE1-EC5DD7CBA211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545D504A-D632-43FC-8FE1-EC5DD7CBA211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545D504A-D632-43FC-8FE1-EC5DD7CBA211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782A155A-16CC-463F-B6B5-CB79F3574AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782A155A-16CC-463F-B6B5-CB79F3574AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782A155A-16CC-463F-B6B5-CB79F3574AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782A155A-16CC-463F-B6B5-CB79F3574AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{545D504A-D632-43FC-8FE1-EC5DD7CBA211} = {B9687D9B-8483-418C-9E0C-65EEB62D9B56}
+		{782A155A-16CC-463F-B6B5-CB79F3574AF4} = {B9687D9B-8483-418C-9E0C-65EEB62D9B56}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81E09A18-D42D-4543-ABEE-843C1F2CB7D3}
+	EndGlobalSection
+EndGlobal
